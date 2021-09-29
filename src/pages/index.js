@@ -18,7 +18,7 @@ function HomePage() {
 return (
     <>
     <Header />
-    <Preloader />
+    {/* <Preloader /> */}
     <Hero />
     <Counter />
     <EventPro />

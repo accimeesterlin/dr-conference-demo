@@ -33,7 +33,7 @@ function Header() {
               <div className="row align-items-center justify-content-start justify-content-lg-between">
                 <div className="col-lg-2 col-md-3 col-sm-3 col-3">
                   <div className="logo">
-                    <a href="index.html"> <img src="assets/images/logo.png" alt="" /></a>
+                    <a href="index.html"> <img src="../assets/images/logo.png" alt="" /></a>
                   </div>
                 </div>
                 <div className="col-lg-8 d-none d-lg-block">

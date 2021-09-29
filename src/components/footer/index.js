@@ -6,15 +6,15 @@ function Footer() {
     <div className="footer-area">
       <div className="foo_top padding-top-120 padding-bottom-65">
         <div className="foo_top_shapes">
-          <img src="assets/images/fo_vec1.png" alt="" className="shp_1" />
-          <img src="assets/images/fo_vec2.png" alt="" className="shp_2 item-zooming" />
+          <img src="../assets/images/fo_vec1.png" alt="" className="shp_1" />
+          <img src="../assets/images/fo_vec2.png" alt="" className="shp_2 item-zooming" />
         </div>
         <div className="container">
           <div className="row">
             <div className="col-lg-3 col-md-6 col-sm-6 col-12 wow fadeInUp" data-wow-delay=".2s">
               <div className="foo-widget">
                 <div className="logo">
-                  <a href="index.html"> <img src="assets/images/logo.png" alt="" /></a>
+                  <a href="index.html"> <img src="../assets/images/logo.png" alt="" /></a>
                 </div>
                 <p>Outsource your HR functions to industry-specialized experts.</p>
                 <div className="social-links">
@@ -66,16 +66,16 @@ function Footer() {
                 <h4>Instagram Feed</h4>
                 <div className="foo-gal-wrapper">
                   <div className="single-gal">
-                    <a href="#"><img src="assets/images/f_img1.png" alt="" /></a>
+                    <a href="#"><img src="../assets/images/f_img1.png" alt="" /></a>
                   </div>
                   <div className="single-gal">
-                    <a href="#"><img src="assets/images/f_img2.png" alt="" /></a>
+                    <a href="#"><img src="../assets/images/f_img2.png" alt="" /></a>
                   </div>
                   <div className="single-gal">
-                    <a href="#"><img src="assets/images/f_img3.png" alt="" /></a>
+                    <a href="#"><img src="../assets/images/f_img3.png" alt="" /></a>
                   </div>
                   <div className="single-gal">
-                    <a href="#"><img src="assets/images/f_img4.png" alt="" /></a>
+                    <a href="#"><img src="../assets/images/f_img4.png" alt="" /></a>
                   </div>
                 </div>
               </div>

@@ -7,7 +7,7 @@ function Register() {
       <div className="row">
         <div className="col-lg-6 wow fadeInLeft">
           <div className="reg-left">
-            <img src="assets/images/form_img1.png" alt="" />
+            <img src="../assets/images/form_img1.png" alt="" />
           </div>
         </div>
         <div className="col-lg-6 wow fadeInRight">

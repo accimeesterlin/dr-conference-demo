@@ -4,9 +4,9 @@ function Speaker() {
 
   return <div className="speaker-area padding-top-110 padding-bottom-120">
     <div className="spe-shapes">
-      <img src="assets/images/e_vec5.png" alt="" className="vec_1" />
-      <img src="assets/images/vec_1.png" alt="" className="vec_2 item-rotate" />
-      <img src="assets/images/e_vec9.png" alt="" className="vec_3" />
+      <img src="../assets/images/e_vec5.png" alt="" className="vec_1" />
+      <img src="../assets/images/vec_1.png" alt="" className="vec_2 item-rotate" />
+      <img src="../assets/images/e_vec9.png" alt="" className="vec_3" />
     </div>
     <div className="container">
       <div className="row justify-content-center margin-bottom-30">
@@ -24,7 +24,7 @@ function Speaker() {
             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 wow zoomIn" data-wow-delay=".2s">
               <div className="single-speaker first">
                 <div className="img-box">
-                  <img src="assets/images/spe_img3.jpg" alt="" />
+                  <img src="../assets/images/spe_img3.jpg" alt="" />
                 </div>
                 <div className="cont-box text-center">
                   <div>
@@ -48,7 +48,7 @@ function Speaker() {
             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 wow zoomIn" data-wow-delay=".4s">
               <div className="single-speaker">
                 <div className="img-box">
-                  <img src="assets/images/spe_img2.jpg" alt="" />
+                  <img src="../assets/images/spe_img2.jpg" alt="" />
                 </div>
                 <div className="cont-box text-center">
                   <div>
@@ -72,7 +72,7 @@ function Speaker() {
             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 wow zoomIn" data-wow-delay=".6s">
               <div className="single-speaker">
                 <div className="img-box">
-                  <img src="assets/images/spe_img3.jpg" alt="" />
+                  <img src="../assets/images/spe_img3.jpg" alt="" />
                 </div>
                 <div className="cont-box text-center">
                   <div>
@@ -96,7 +96,7 @@ function Speaker() {
             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 wow zoomIn" data-wow-delay=".8s">
               <div className="single-speaker">
                 <div className="img-box">
-                  <img src="assets/images/spe_img4.jpg" alt="" />
+                  <img src="../assets/images/spe_img4.jpg" alt="" />
                 </div>
                 <div className="cont-box text-center">
                   <div>

@@ -3,10 +3,10 @@ import React from 'react';
 function Testimonial() {
   return <div className="testi-area padding-top-120 padding-bottom-120" >
     <div className="test-shapes" >
-      <img src="assets/images/e_vec2.png" alt="" className="vec1" />
-      <img src="assets/images/e_vec8.png" alt="" className="vec2 item-animateTwo" />
-      <img src="assets/images/vec_5.png" alt="" className="vec3 item-zooming" />
-      <img src="assets/images/tvec.png" alt="" className="vec4" />
+      <img src="../assets/images/e_vec2.png" alt="" className="vec1" />
+      <img src="../assets/images/e_vec8.png" alt="" className="vec2 item-animateTwo" />
+      <img src="../assets/images/vec_5.png" alt="" className="vec3 item-zooming" />
+      <img src="../assets/images/tvec.png" alt="" className="vec4" />
     </div >
     <div className="container" >
       <div className="row align-items-center" >
@@ -26,8 +26,8 @@ function Testimonial() {
               <div className="col-lg-6" >
                 <div className="single-testi" >
                   <div className="img-box" >
-                    <img src="assets/images/t_img1.png" alt="" />
-                    <img className="quote" src="assets/images/quote.png" alt="" />
+                    <img src="../assets/images/t_img1.png" alt="" />
+                    <img className="quote" src="../assets/images/quote.png" alt="" />
                   </div>
                   <div className="cont-box" >
                     <h5>Michael Dennis</h5>
@@ -40,8 +40,8 @@ function Testimonial() {
               <div className="col-lg-6" >
                 <div className="single-testi" >
                   <div className="img-box" >
-                    <img src="assets/images/t_img2.png" alt="" />
-                    <img className="quote" src="assets/images/quote.png" alt="" />
+                    <img src="../assets/images/t_img2.png" alt="" />
+                    <img className="quote" src="../assets/images/quote.png" alt="" />
                   </div>
                   <div className="cont-box" >
                     <h5>katty wilson</h5>
@@ -54,8 +54,8 @@ function Testimonial() {
               <div className="col-lg-6" >
                 <div className="single-testi" >
                   <div className="img-box" >
-                    <img src="assets/images/t_img1.png" alt="" />
-                    <img className="quote" src="assets/images/quote.png" alt="" />
+                    <img src="../assets/images/t_img1.png" alt="" />
+                    <img className="quote" src="../assets/images/quote.png" alt="" />
                   </div>
                   <div className="cont-box" >
                     <h5>Michael Dennis</h5>
@@ -68,8 +68,8 @@ function Testimonial() {
               <div className="col-lg-6" >
                 <div className="single-testi" >
                   <div className="img-box" >
-                    <img src="assets/images/t_img2.png" alt="" />
-                    <img className="quote" src="assets/images/quote.png" alt="" />
+                    <img src="../assets/images/t_img2.png" alt="" />
+                    <img className="quote" src="../assets/images/quote.png" alt="" />
                   </div>
                   <div className="cont-box" >
                     <h5>katty wilson</h5>

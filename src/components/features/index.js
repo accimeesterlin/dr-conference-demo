@@ -3,8 +3,8 @@ import React from 'react';
 function Features() {
   return <div className="fea-area padding-top-120 padding-bottom-90" >
     <div className="fea-shapes" >
-      <img src="assets/images/e_vec3.png" alt="" className="vec_1" />
-      <img src="assets/images/e_vec5.png" alt="" className="vec_2" />
+      <img src="../assets/images/e_vec3.png" alt="" className="vec_1" />
+      <img src="../assets/images/e_vec5.png" alt="" className="vec_2" />
     </div >
     <div className="container" >
       <div className="row align-items-center" >
@@ -27,15 +27,15 @@ function Features() {
           <div className="fea-right" >
             <div className="row" >
               <div className="col-6 wow fadeInDown" >
-                <img src="assets/images/fea_img1.jpg" alt="" />
+                <img src="../assets/images/fea_img1.jpg" alt="" />
               </div>
               <div className="col-6 wow fadeInDown" data-wow-delay=".2s" >
-                <img src="assets/images/fea_img2.jpg" alt="" />
+                <img src="../assets/images/fea_img2.jpg" alt="" />
               </div>
             </div >
             <div className="row" >
               <div className="col-12 wow fadeInUp" >
-                <img src="assets/images/fea_img3.jpg" alt="" />
+                <img src="../assets/images/fea_img3.jpg" alt="" />
               </div>
             </div >
           </div >

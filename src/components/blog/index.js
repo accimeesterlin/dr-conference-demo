@@ -16,7 +16,7 @@ function Blog() {
         <div className="col-lg-4">
           <div className="single-blog">
             <div className="img-box">
-              <img src="assets/images/b_1.jpg" alt="" />
+              <img src="../assets/images/b_1.jpg" alt="" />
             </div>
             <div className="content-box">
               <div className="meta-box d-flex justify-content-between">
@@ -35,7 +35,7 @@ function Blog() {
         <div className="col-lg-4">
           <div className="single-blog">
             <div className="img-box">
-              <img src="assets/images/b_2.jpg" alt="" />
+              <img src="../assets/images/b_2.jpg" alt="" />
             </div>
             <div className="content-box">
               <div className="meta-box d-flex justify-content-between">
@@ -54,7 +54,7 @@ function Blog() {
         <div className="col-lg-4">
           <div className="single-blog">
             <div className="img-box">
-              <img src="assets/images/b_3.jpg" alt="" />
+              <img src="../assets/images/b_3.jpg" alt="" />
             </div>
             <div className="content-box">
               <div className="meta-box d-flex justify-content-between">
@@ -73,7 +73,7 @@ function Blog() {
         <div className="col-lg-4">
           <div className="single-blog">
             <div className="img-box">
-              <img src="assets/images/b_1.jpg" alt="" />
+              <img src="../assets/images/b_1.jpg" alt="" />
             </div>
             <div className="content-box">
               <div className="meta-box d-flex justify-content-between">
@@ -92,7 +92,7 @@ function Blog() {
         <div className="col-lg-4">
           <div className="single-blog">
             <div className="img-box">
-              <img src="assets/images/b_2.jpg" alt="" />
+              <img src="../assets/images/b_2.jpg" alt="" />
             </div>
             <div className="content-box">
               <div className="meta-box d-flex justify-content-between">
@@ -111,7 +111,7 @@ function Blog() {
         <div className="col-lg-4">
           <div className="single-blog">
             <div className="img-box">
-              <img src="assets/images/b_3.jpg" alt="" />
+              <img src="../assets/images/b_3.jpg" alt="" />
             </div>
             <div className="content-box">
               <div className="meta-box d-flex justify-content-between">

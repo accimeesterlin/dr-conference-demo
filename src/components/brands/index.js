@@ -15,22 +15,22 @@ function Brands() {
       <div className="row">
         <div className="col-lg-3 col-md-6 col-sm-6 col-12 wow zoomIn" data-wow-delay=".2s">
           <div className="single-brand">
-            <img src="assets/images/brand1.png" alt="" />
+            <img src="../assets/images/brand1.png" alt="" />
           </div>
         </div>
         <div className="col-lg-3 col-md-6 col-sm-6 col-12 wow zoomIn" data-wow-delay=".4s">
           <div className="single-brand">
-            <img src="assets/images/brand2.png" alt="" />
+            <img src="../assets/images/brand2.png" alt="" />
           </div>
         </div>
         <div className="col-lg-3 col-md-6 col-sm-6 col-12 wow zoomIn" data-wow-delay=".6s">
           <div className="single-brand">
-            <img src="assets/images/brand3.png" alt="" />
+            <img src="../assets/images/brand3.png" alt="" />
           </div>
         </div>
         <div className="col-lg-3 col-md-6 col-sm-6 col-12 wow zoomIn" data-wow-delay=".8s">
           <div className="single-brand">
-            <img src="assets/images/brand4.png" alt="" />
+            <img src="../assets/images/brand4.png" alt="" />
           </div>
         </div>
       </div>

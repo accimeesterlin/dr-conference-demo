@@ -5,12 +5,12 @@ function Hero() {
   return <div className="hero-slider-active" >
     <div className="hero-area" >
       <div className="hero_shapes" >
-        <img src="assets/images/vec_1.png" alt="" className="vec_1 item-rotate" />
-        <img src="assets/images/vec_2.png" alt="" className="vec_2 item-animateOne" />
-        <img src="assets/images/vec_3.png" alt="" className="vec_3" />
-        <img src="assets/images/vec_4.png" alt="" className="vec_4" />
-        <img src="assets/images/vec_5.png" alt="" className="vec_5" />
-        <img src="assets/images/vec_6.png" alt="" className="vec_6 item-animateTwo" />
+        <img src="../assets/images/vec_1.png" alt="" className="vec_1 item-rotate" />
+        <img src="../assets/images/vec_2.png" alt="" className="vec_2 item-animateOne" />
+        <img src="../assets/images/vec_3.png" alt="" className="vec_3" />
+        <img src="../assets/images/vec_4.png" alt="" className="vec_4" />
+        <img src="../assets/images/vec_5.png" alt="" className="vec_5" />
+        <img src="../assets/images/vec_6.png" alt="" className="vec_6 item-animateTwo" />
       </div >
       <div className="container" >
         <div className="row align-items-center" >
@@ -35,7 +35,7 @@ function Hero() {
           </div >
           <div className="col-lg-5 d-none d-lg-block" >
             <div className="hero-right" >
-              <img src="assets/images/hero_img1.png" alt="" />
+              <img src="../assets/images/hero_img1.png" alt="" />
             </div >
           </div >
         </div >
@@ -43,12 +43,12 @@ function Hero() {
     </div >
     <div className="hero-area" >
       <div className="hero_shapes" >
-        <img src="assets/images/vec_1.png" alt="" className="vec_1 item-rotate" />
-        <img src="assets/images/vec_2.png" alt="" className="vec_2 item-animateOne" />
-        <img src="assets/images/vec_3.png" alt="" className="vec_3" />
-        <img src="assets/images/vec_4.png" alt="" className="vec_4" />
-        <img src="assets/images/vec_5.png" alt="" className="vec_5" />
-        <img src="assets/images/vec_6.png" alt="" className="vec_6 item-animateTwo" />
+        <img src="../assets/images/vec_1.png" alt="" className="vec_1 item-rotate" />
+        <img src="../assets/images/vec_2.png" alt="" className="vec_2 item-animateOne" />
+        <img src="../assets/images/vec_3.png" alt="" className="vec_3" />
+        <img src="../assets/images/vec_4.png" alt="" className="vec_4" />
+        <img src="../assets/images/vec_5.png" alt="" className="vec_5" />
+        <img src="../assets/images/vec_6.png" alt="" className="vec_6 item-animateTwo" />
       </div >
       <div className="container" >
         <div className="row align-items-center" >
@@ -72,7 +72,7 @@ function Hero() {
           </div >
           <div className="col-lg-5 d-none d-lg-block" >
             <div className="hero-right" >
-              <img src="assets/images/hero_img1.png" alt="" />
+              <img src="../assets/images/hero_img1.png" alt="" />
             </div >
           </div >
         </div >
@@ -80,12 +80,12 @@ function Hero() {
     </div >
     <div className="hero-area" >
       <div className="hero_shapes" >
-        <img src="assets/images/vec_1.png" alt="" className="vec_1 item-rotate" />
-        <img src="assets/images/vec_2.png" alt="" className="vec_2 item-animateOne" />
-        <img src="assets/images/vec_3.png" alt="" className="vec_3" />
-        <img src="assets/images/vec_4.png" alt="" className="vec_4" />
-        <img src="assets/images/vec_5.png" alt="" className="vec_5" />
-        <img src="assets/images/vec_6.png" alt="" className="vec_6 item-animateTwo" />
+        <img src="../assets/images/vec_1.png" alt="" className="vec_1 item-rotate" />
+        <img src="../assets/images/vec_2.png" alt="" className="vec_2 item-animateOne" />
+        <img src="../assets/images/vec_3.png" alt="" className="vec_3" />
+        <img src="../assets/images/vec_4.png" alt="" className="vec_4" />
+        <img src="../assets/images/vec_5.png" alt="" className="vec_5" />
+        <img src="../assets/images/vec_6.png" alt="" className="vec_6 item-animateTwo" />
       </div >
       <div className="container" >
         <div className="row align-items-center" >
@@ -108,7 +108,7 @@ function Hero() {
           </div >
           <div className="col-lg-5 d-none d-lg-block" >
             <div className="hero-right" >
-              <img src="assets/images/hero_img1.png" alt="" />
+              <img src="../assets/images/hero_img1.png" alt="" />
             </div >
           </div >
         </div >
