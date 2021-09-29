@@ -6,7 +6,7 @@ import "react-confirm-alert/src/react-confirm-alert.css";
 import "react-clock/dist/Clock.css";
 import "react-time-picker/dist/TimePicker.css";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
-import "../styles/globals.css";
+// import "../styles/globals.css";
 
 import "../assets/css/animate.css";
 import "../assets/css/bootstrap.min.css";
