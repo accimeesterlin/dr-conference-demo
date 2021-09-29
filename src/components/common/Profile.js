@@ -120,11 +120,11 @@ export const Profile = ({ teamId }) => {
 
       <Row className="profile-button">
         <Col lg={3}>
-          <img src="/letra-publisher.svg" alt="" />
+          <img src="/DR Conference-publisher.svg" alt="" />
         </Col>
         <Col lg={7}>
           <MenuItem>
-            <MenuLink href="/publisher" label="LetraPublisher&trade;" />
+            <MenuLink href="/publisher" label="DR ConferencePublisher&trade;" />
           </MenuItem>
         </Col>
         <Col lg={2}>

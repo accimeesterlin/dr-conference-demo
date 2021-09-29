@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const { log } = console;
-const endpoint = "https://letra.clients.agneslegal.com";
+const endpoint = "https://DR Conference.clients.agneslegal.com";
 const RETRY_TIMER = 1000;
 let RETRY_COUNT = 0;
 

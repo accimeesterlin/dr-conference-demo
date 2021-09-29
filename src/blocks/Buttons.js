@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "@chakra-ui/react";
 import { RepeatIcon } from "@chakra-ui/icons";
-import { UploadIcon } from "@Blocks/LetraIcon";
+import { UploadIcon } from "@Blocks/DR ConferenceIcon";
 
 function ActionButton({ text, ...rest }) {
   return (

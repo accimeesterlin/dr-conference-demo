@@ -62,8 +62,8 @@ const Step1 = ({ updateView, setEmail }) => {
   return (
     <Container>
       <Login>
-        <Title className="h1 text-centhttps://github.com/Thecodrs/letraai-webapp.giter ">
-          Letra.AI
+        <Title className="h1 text-centhttps://github.com/Thecodrs/DR Conferenceai-webapp.giter ">
+          DR Conference
         </Title>
         <Text>Create a new account</Text>
         <Form onSubmit={handleSubmit(onSubmit)}>

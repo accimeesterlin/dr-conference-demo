@@ -71,8 +71,8 @@ export const SetupMFA = ({ currentPhone }) => {
   return (
     <Container>
       <Login>
-        <Title className="h1 text-centhttps://github.com/Thecodrs/letraai-webapp.giter ">
-          Letra.AI
+        <Title className="h1 text-centhttps://github.com/Thecodrs/DR Conferenceai-webapp.giter ">
+          DR Conference
         </Title>
         <Text>Setup MFA with phone</Text>
         <Form onSubmit={handleSubmit(onSubmit)}>

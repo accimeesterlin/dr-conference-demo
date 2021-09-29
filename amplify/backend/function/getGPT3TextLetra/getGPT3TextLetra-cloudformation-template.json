@@ -47,12 +47,12 @@
         "FunctionName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "getGPT3TextLetra",
+            "getGPT3TextDR Conference",
             {
               "Fn::Join": [
                 "",
                 [
-                  "getGPT3TextLetra",
+                  "getGPT3TextDR Conference",
                   "-",
                   {
                     "Ref": "env"
@@ -89,12 +89,12 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "letraaiLambdaRolefd9721e7",
+            "DR ConferenceaiLambdaRolefd9721e7",
             {
               "Fn::Join": [
                 "",
                 [
-                  "letraaiLambdaRolefd9721e7",
+                  "DR ConferenceaiLambdaRolefd9721e7",
                   "-",
                   {
                     "Ref": "env"

@@ -10,7 +10,7 @@
     "AppSyncApiName": {
       "Type": "String",
       "Description": "The name of the AppSync API",
-      "Default": "AppSyncSimpleTransform"
+      "Default": "AppSyncSimpDR Conferencensform"
     },
     "env": {
       "Type": "String",

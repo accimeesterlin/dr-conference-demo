@@ -8,7 +8,7 @@ export * from "./LeftPanelPortal";
 export * from "./ArticleDrawerButton";
 export * from "./publisher";
 export * from "./Buttons";
-export * from "./LetraIcon";
+export * from "./DR ConferenceIcon";
 export * from "./PublishPopover";
 export * from "./InternetIcon";
 export * from "./FacebookIcon";

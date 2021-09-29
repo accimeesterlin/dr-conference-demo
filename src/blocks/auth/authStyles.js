@@ -27,7 +27,7 @@ export const Login = styled.div`
 
 export const Title = () => (
   <Heading as="h1" mb="8" color="#16D898">
-    LETRA.AI
+    DR Conference
   </Heading>
 );
 

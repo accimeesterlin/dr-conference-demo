@@ -128,10 +128,10 @@ export function LeftPanelMenu({ page, queueQuantity }) {
       />
       <MenuItemWrapper
         isActive={page.startsWith("/publisher")}
-        text="LetraPublisher&trade;"
-        imgGray="/assets/letra-gray-icon.svg"
-        imgGreen="/assets/letra-green-icon.svg"
-        alt="Letra Publisher Icon"
+        text="DR ConferencePublisher&trade;"
+        imgGray="/assets/DR Conference-gray-icon.svg"
+        imgGreen="/assets/DR Conference-green-icon.svg"
+        alt="DR Conference Publisher Icon"
         number={queueQuantity}
         navigateTo={`/publisher/${id}`}
       />

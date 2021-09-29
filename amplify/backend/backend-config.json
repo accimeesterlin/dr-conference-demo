@@ -24,7 +24,7 @@
     }
   },
   "api": {
-    "letraaigraphql": {
+    "DR Conferenceaigraphql": {
       "service": "AppSync",
       "providerPlugin": "awscloudformation",
       "output": {
@@ -48,55 +48,55 @@
     }
   },
   "function": {
-    "getusersubLetra": {
+    "getusersubDR Conference": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda",
       "dependsOn": [
         {
           "category": "api",
-          "resourceName": "letraaigraphql",
+          "resourceName": "DR Conferenceaigraphql",
           "attributes": [
             "GraphQLAPIIdOutput"
           ]
         }
       ]
     },
-    "newsapiSearchLetra": {
+    "newsapiSearchDR Conference": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda",
       "dependsOn": []
     },
-    "manageInvitationLetra": {
+    "manageInvitationDR Conference": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda",
       "dependsOn": [
         {
           "category": "api",
-          "resourceName": "letraaigraphql",
+          "resourceName": "DR Conferenceaigraphql",
           "attributes": [
             "GraphQLAPIIdOutput"
           ]
         }
       ]
     },
-    "postSchedulerLetra": {
+    "postSchedulerDR Conference": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda",
       "dependsOn": [
         {
           "category": "api",
-          "resourceName": "letraaigraphql",
+          "resourceName": "DR Conferenceaigraphql",
           "attributes": [
             "GraphQLAPIIdOutput"
           ]
         }
       ]
     },
-    "getGPT3TextLetra": {
+    "getGPT3TextDR Conference": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"

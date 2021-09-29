@@ -14,7 +14,7 @@ import { createNewPost, removePostById } from "@Libs/api-post";
 import { getSentiment } from "@Libs/api-tone";
 
 // import { processSimpleOptions } from "./helpers";
-import { LogoIcon, FolderIcon, CheckIcon } from "@Blocks/LetraIcon";
+import { LogoIcon, FolderIcon, CheckIcon } from "@Blocks/DR ConferenceIcon";
 import { formatedDateAndTime } from "./helpers";
 import { Dropdown } from "./atom";
 
@@ -94,7 +94,7 @@ const InlineView = ({
               bgColor: "#000",
               transform: "scale(1.1)",
             }}
-            text="LetraPublisher&trade;"
+            text="DR ConferencePublisher&trade;"
             hoverText={inQueueId ? "Remove from queue" : "Add to queue"}
             disabled={loading}
           />

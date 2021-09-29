@@ -73,7 +73,7 @@ const Signin = ({ updateView, doMFA }) => {
       if (
         email === "emmanuelfleurine@gmail.com" ||
         email === "emmanuelrunner.inc@gmail.com" ||
-        email === "lletra@mailpoof.com"
+        email === "lDR Conference@mailpoof.com"
       ) {
         const workingTeam = await getActiveTeamId();
         router.push(`/search/${workingTeam}`);

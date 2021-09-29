@@ -2,7 +2,7 @@ const axios = require("axios");
 
 // TODO REMOVE TEST URL IN CLEANING
 const testUrl =
-  "https://accimeesterlin.com/letrai-ai/?wpwhpro_action=main_5900&wpwhpro_api_key=zgelayc3btpywfpf6rtkwyrc6aouiipbx2bh7t6r5ssci9xyonhkdpairor4ne14";
+  "https://accimeesterlin.com/DR Conferencei-ai/?wpwhpro_action=main_5900&wpwhpro_api_key=zgelayc3btpywfpf6rtkwyrc6aouiipbx2bh7t6r5ssci9xyonhkdpairor4ne14";
 
 function postToWordpress(data, url = testUrl) {
   const { title, content, description } = data;
@@ -13,7 +13,7 @@ function postToWordpress(data, url = testUrl) {
     post_title: title,
     post_category: "usa",
     tags_input: "tech,ai,metaverse,multiverse",
-    post_author: "Letra.ai",
+    post_author: "DR Conference ",
     post_status: "publish",
   };
 

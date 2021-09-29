@@ -3,10 +3,10 @@ import * as queries from "@Graphql/queries";
 
 export const publishPost = (action, teamId, createdAt, userEmail) =>
   API.graphql(
-    graphqlOperation(queries.postSchedulerLetra, {
+    graphqlOperation(queries.postSchedulerDR Conference, {
       action,
       teamId,
       createdAt,
       userEmail,
     })
-  ).then(({ data: { postSchedulerLetra } }) => JSON.parse(postSchedulerLetra));
+  ).then(({ data: { postSchedulerDR Conference } }) => JSON.parse(postSchedulerDR Conference));

@@ -150,7 +150,7 @@ export default function FBTempo() {
         `${pageId}/feed`,
         "POST",
         {
-          message: "This is from letra",
+          message: "This is from DR Conference",
           access_token,
         },
         (response) => {

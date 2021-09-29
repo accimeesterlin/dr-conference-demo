@@ -46,7 +46,7 @@ const SendCode = ({ updateView, setEmail }) => {
   return (
     <Container>
       <Login>
-        <Title className="h1">Letra.AI</Title>
+        <Title className="h1">DR Conference </Title>
         <Text>Reset your password</Text>
         <Form onSubmit={handleSubmit(onSubmit)}>
           <Input

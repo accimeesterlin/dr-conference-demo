@@ -1,4 +1,4 @@
-# Letra AI webapp
+# DR Conference AI webapp
 
 
 Like we said we would bootstrapped the project with [Next.js](https://nextjs.org/). To learn more about Next.js, take a look at the following resources:

@@ -16,9 +16,9 @@
     "s3Key": {
       "Type": "String"
     },
-    "apiletraaigraphqlGraphQLAPIIdOutput": {
+    "apiDR ConferenceaigraphqlGraphQLAPIIdOutput": {
       "Type": "String",
-      "Default": "apiletraaigraphqlGraphQLAPIIdOutput"
+      "Default": "apiDR ConferenceaigraphqlGraphQLAPIIdOutput"
     }
   },
   "Conditions": {
@@ -51,12 +51,12 @@
         "FunctionName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "getusersubLetra",
+            "getusersubDR Conference",
             {
               "Fn::Join": [
                 "",
                 [
-                  "getusersubLetra",
+                  "getusersubDR Conference",
                   "-",
                   {
                     "Ref": "env"
@@ -74,12 +74,12 @@
             "REGION": {
               "Ref": "AWS::Region"
             },
-            "API_LETRAAIGRAPHQL_USERTABLE_NAME": {
+            "API_DR ConferenceAIGRAPHQL_USERTABLE_NAME": {
               "Fn::ImportValue": {
-                "Fn::Sub": "${apiletraaigraphqlGraphQLAPIIdOutput}:GetAtt:UserTable:Name"
+                "Fn::Sub": "${apiDR ConferenceaigraphqlGraphQLAPIIdOutput}:GetAtt:UserTable:Name"
               }
             },
-            "API_LETRAAIGRAPHQL_USERTABLE_ARN": {
+            "API_DR ConferenceAIGRAPHQL_USERTABLE_ARN": {
               "Fn::Join": [
                 "",
                 [
@@ -94,14 +94,14 @@
                   ":table/",
                   {
                     "Fn::ImportValue": {
-                      "Fn::Sub": "${apiletraaigraphqlGraphQLAPIIdOutput}:GetAtt:UserTable:Name"
+                      "Fn::Sub": "${apiDR ConferenceaigraphqlGraphQLAPIIdOutput}:GetAtt:UserTable:Name"
                     }
                   }
                 ]
               ]
             },
-            "API_LETRAAIGRAPHQL_GRAPHQLAPIIDOUTPUT": {
-              "Ref": "apiletraaigraphqlGraphQLAPIIdOutput"
+            "API_DR ConferenceAIGRAPHQL_GRAPHQLAPIIDOUTPUT": {
+              "Ref": "apiDR ConferenceaigraphqlGraphQLAPIIdOutput"
             }
           }
         },
@@ -122,12 +122,12 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "letraaiLambdaRole33fd9ba9",
+            "DR ConferenceaiLambdaRole33fd9ba9",
             {
               "Fn::Join": [
                 "",
                 [
-                  "letraaiLambdaRole33fd9ba9",
+                  "DR ConferenceaiLambdaRole33fd9ba9",
                   "-",
                   {
                     "Ref": "env"
@@ -239,7 +239,7 @@
                       ":table/",
                       {
                         "Fn::ImportValue": {
-                          "Fn::Sub": "${apiletraaigraphqlGraphQLAPIIdOutput}:GetAtt:UserTable:Name"
+                          "Fn::Sub": "${apiDR ConferenceaigraphqlGraphQLAPIIdOutput}:GetAtt:UserTable:Name"
                         }
                       }
                     ]
@@ -260,7 +260,7 @@
                       ":table/",
                       {
                         "Fn::ImportValue": {
-                          "Fn::Sub": "${apiletraaigraphqlGraphQLAPIIdOutput}:GetAtt:UserTable:Name"
+                          "Fn::Sub": "${apiDR ConferenceaigraphqlGraphQLAPIIdOutput}:GetAtt:UserTable:Name"
                         }
                       },
                       "/index/*"

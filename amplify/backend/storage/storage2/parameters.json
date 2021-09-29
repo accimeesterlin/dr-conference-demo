@@ -1,5 +1,5 @@
 {
-    "bucketName": "letraaistorage2",
+    "bucketName": "DR Conferenceaistorage2",
     "authPolicyName": "s3_amplify_b1ff47db",
     "unauthPolicyName": "s3_amplify_b1ff47db",
     "authRoleName": {

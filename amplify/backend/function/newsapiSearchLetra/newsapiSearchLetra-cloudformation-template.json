@@ -47,12 +47,12 @@
         "FunctionName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "newsapiSearchLetra",
+            "newsapiSearchDR Conference",
             {
               "Fn::Join": [
                 "",
                 [
-                  "newsapiSearchLetra",
+                  "newsapiSearchDR Conference",
                   "-",
                   {
                     "Ref": "env"
@@ -82,7 +82,7 @@
                         "env": {
                           "Ref": "env"
                         },
-                        "functionName": "newsapiSearchLetra"
+                        "functionName": "newsapiSearchDR Conference"
                       }
                     ]
                   },
@@ -109,12 +109,12 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "letraaiLambdaRole2490eaaf",
+            "DR ConferenceaiLambdaRole2490eaaf",
             {
               "Fn::Join": [
                 "",
                 [
-                  "letraaiLambdaRole2490eaaf",
+                  "DR ConferenceaiLambdaRole2490eaaf",
                   "-",
                   {
                     "Ref": "env"
@@ -224,7 +224,7 @@
                           "env": {
                             "Ref": "env"
                           },
-                          "functionName": "newsapiSearchLetra"
+                          "functionName": "newsapiSearchDR Conference"
                         }
                       ]
                     },

@@ -5,7 +5,7 @@ import {
 import * as queries from "@Graphql/queries";
 import axios from 'axios';
 
-const endpoint = `https://letra-scrape-article-details.herokuapp.com/scrape/search?`;
+const endpoint = `https://DR Conference-scrape-article-details.herokuapp.com/scrape/search?`;
 
 export const getGpt3Text = (text) =>
   API.graphql(

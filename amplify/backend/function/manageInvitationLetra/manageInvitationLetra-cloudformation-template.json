@@ -16,9 +16,9 @@
     "s3Key": {
       "Type": "String"
     },
-    "apiletraaigraphqlGraphQLAPIIdOutput": {
+    "apiDR ConferenceaigraphqlGraphQLAPIIdOutput": {
       "Type": "String",
-      "Default": "apiletraaigraphqlGraphQLAPIIdOutput"
+      "Default": "apiDR ConferenceaigraphqlGraphQLAPIIdOutput"
     }
   },
   "Conditions": {
@@ -51,12 +51,12 @@
         "FunctionName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "manageInvitationLetra",
+            "manageInvitationDR Conference",
             {
               "Fn::Join": [
                 "",
                 [
-                  "manageInvitationLetra",
+                  "manageInvitationDR Conference",
                   "-",
                   {
                     "Ref": "env"
@@ -74,12 +74,12 @@
             "REGION": {
               "Ref": "AWS::Region"
             },
-            "API_LETRAAIGRAPHQL_TEAMINVITATIONTABLE_NAME": {
+            "API_DR ConferenceAIGRAPHQL_TEAMINVITATIONTABLE_NAME": {
               "Fn::ImportValue": {
-                "Fn::Sub": "${apiletraaigraphqlGraphQLAPIIdOutput}:GetAtt:TeamInvitationTable:Name"
+                "Fn::Sub": "${apiDR ConferenceaigraphqlGraphQLAPIIdOutput}:GetAtt:TeamInvitationTable:Name"
               }
             },
-            "API_LETRAAIGRAPHQL_TEAMINVITATIONTABLE_ARN": {
+            "API_DR ConferenceAIGRAPHQL_TEAMINVITATIONTABLE_ARN": {
               "Fn::Join": [
                 "",
                 [
@@ -94,21 +94,21 @@
                   ":table/",
                   {
                     "Fn::ImportValue": {
-                      "Fn::Sub": "${apiletraaigraphqlGraphQLAPIIdOutput}:GetAtt:TeamInvitationTable:Name"
+                      "Fn::Sub": "${apiDR ConferenceaigraphqlGraphQLAPIIdOutput}:GetAtt:TeamInvitationTable:Name"
                     }
                   }
                 ]
               ]
             },
-            "API_LETRAAIGRAPHQL_GRAPHQLAPIIDOUTPUT": {
-              "Ref": "apiletraaigraphqlGraphQLAPIIdOutput"
+            "API_DR ConferenceAIGRAPHQL_GRAPHQLAPIIDOUTPUT": {
+              "Ref": "apiDR ConferenceaigraphqlGraphQLAPIIdOutput"
             },
-            "API_LETRAAIGRAPHQL_TEAMTABLE_NAME": {
+            "API_DR ConferenceAIGRAPHQL_TEAMTABLE_NAME": {
               "Fn::ImportValue": {
-                "Fn::Sub": "${apiletraaigraphqlGraphQLAPIIdOutput}:GetAtt:TeamTable:Name"
+                "Fn::Sub": "${apiDR ConferenceaigraphqlGraphQLAPIIdOutput}:GetAtt:TeamTable:Name"
               }
             },
-            "API_LETRAAIGRAPHQL_TEAMTABLE_ARN": {
+            "API_DR ConferenceAIGRAPHQL_TEAMTABLE_ARN": {
               "Fn::Join": [
                 "",
                 [
@@ -123,7 +123,7 @@
                   ":table/",
                   {
                     "Fn::ImportValue": {
-                      "Fn::Sub": "${apiletraaigraphqlGraphQLAPIIdOutput}:GetAtt:TeamTable:Name"
+                      "Fn::Sub": "${apiDR ConferenceaigraphqlGraphQLAPIIdOutput}:GetAtt:TeamTable:Name"
                     }
                   }
                 ]
@@ -148,12 +148,12 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "letraaiLambdaRolec924352a",
+            "DR ConferenceaiLambdaRolec924352a",
             {
               "Fn::Join": [
                 "",
                 [
-                  "letraaiLambdaRolec924352a",
+                  "DR ConferenceaiLambdaRolec924352a",
                   "-",
                   {
                     "Ref": "env"
@@ -271,7 +271,7 @@
                       ":table/",
                       {
                         "Fn::ImportValue": {
-                          "Fn::Sub": "${apiletraaigraphqlGraphQLAPIIdOutput}:GetAtt:TeamInvitationTable:Name"
+                          "Fn::Sub": "${apiDR ConferenceaigraphqlGraphQLAPIIdOutput}:GetAtt:TeamInvitationTable:Name"
                         }
                       }
                     ]
@@ -292,7 +292,7 @@
                       ":table/",
                       {
                         "Fn::ImportValue": {
-                          "Fn::Sub": "${apiletraaigraphqlGraphQLAPIIdOutput}:GetAtt:TeamInvitationTable:Name"
+                          "Fn::Sub": "${apiDR ConferenceaigraphqlGraphQLAPIIdOutput}:GetAtt:TeamInvitationTable:Name"
                         }
                       },
                       "/index/*"
@@ -329,7 +329,7 @@
                       ":table/",
                       {
                         "Fn::ImportValue": {
-                          "Fn::Sub": "${apiletraaigraphqlGraphQLAPIIdOutput}:GetAtt:TeamTable:Name"
+                          "Fn::Sub": "${apiDR ConferenceaigraphqlGraphQLAPIIdOutput}:GetAtt:TeamTable:Name"
                         }
                       }
                     ]
@@ -350,7 +350,7 @@
                       ":table/",
                       {
                         "Fn::ImportValue": {
-                          "Fn::Sub": "${apiletraaigraphqlGraphQLAPIIdOutput}:GetAtt:TeamTable:Name"
+                          "Fn::Sub": "${apiDR ConferenceaigraphqlGraphQLAPIIdOutput}:GetAtt:TeamTable:Name"
                         }
                       },
                       "/index/*"

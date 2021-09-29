@@ -1,14 +1,14 @@
 /* Amplify Params - DO NOT EDIT
-	API_LETRAAIGRAPHQL_GRAPHQLAPIIDOUTPUT
-	API_LETRAAIGRAPHQL_USERTABLE_ARN
-	API_LETRAAIGRAPHQL_USERTABLE_NAME
-	ENV
-	REGION
+  API_DR ConferenceAIGRAPHQL_GRAPHQLAPIIDOUTPUT
+  API_DR ConferenceAIGRAPHQL_USERTABLE_ARN
+  API_DR ConferenceAIGRAPHQL_USERTABLE_NAME
+  ENV
+  REGION
 Amplify Params - DO NOT EDIT */
 
 const AWS = require("aws-sdk");
 
-const { API_LETRAAIGRAPHQL_USERTABLE_NAME } = process.env;
+const { API_DR ConferenceAIGRAPHQL_USERTABLE_NAME } = process.env;
 
 AWS.config.apiVersions = {
   dynamodb: "2012-08-10",
@@ -22,7 +22,7 @@ exports.handler = async (event) => {
     region: "us-east-1",
   });
   const params = {
-    TableName: API_LETRAAIGRAPHQL_USERTABLE_NAME,
+    TableName: API_DR ConferenceAIGRAPHQL_USERTABLE_NAME,
     Key: { id: email },
   };
 

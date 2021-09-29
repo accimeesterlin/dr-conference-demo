@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "alias": "letraai",
+  "alias": "DR Conferenceai",
   "builds": [
     {
       "src": "next.config.js",

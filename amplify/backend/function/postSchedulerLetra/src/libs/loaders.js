@@ -8,12 +8,12 @@ const {
 
 const { ddbDocClient } = require("./dynamo-utils");
 
-const { API_LETRAAIGRAPHQL_POSTTABLE_NAME, API_LETRAAIGRAPHQL_TEAMTABLE_NAME } =
+const { API_DR ConferenceAIGRAPHQL_POSTTABLE_NAME, API_DR ConferenceAIGRAPHQL_TEAMTABLE_NAME } =
   process.env;
 
 function getSinglePost(teamId, createdAt) {
   const params = {
-    TableName: API_LETRAAIGRAPHQL_POSTTABLE_NAME,
+    TableName: API_DR ConferenceAIGRAPHQL_POSTTABLE_NAME,
     Key: {
       teamId,
       createdAt,
@@ -37,7 +37,7 @@ function getPostsByScheduleTime(input) {
       ":s": scheduleTime,
     },
     // ProjectionExpression: "id, teamId, scheduleTime",
-    TableName: API_LETRAAIGRAPHQL_POSTTABLE_NAME,
+    TableName: API_DR ConferenceAIGRAPHQL_POSTTABLE_NAME,
     IndexName: "byScheduleTime",
     Limit: limit,
   };
@@ -59,42 +59,42 @@ async function getTeamInfoById(ides) {
 
   let params = {
     RequestItems: {
-      [API_LETRAAIGRAPHQL_TEAMTABLE_NAME]: {
+      [API_DR ConferenceAIGRAPHQL_TEAMTABLE_NAME]: {
         Keys: keys,
         ProjectionExpression: "id, channels, activeChannels",
       },
-    },
+},
   };
 
-  let values = [];
-  let numberOfError = 0;
+let values = [];
+let numberOfError = 0;
 
-  while (params) {
-    try {
-      const { Responses, UnprocessedKeys } = await ddbDocClient.send(
-        new BatchGetCommand(params)
-      );
-      values = [...values, ...Responses[API_LETRAAIGRAPHQL_TEAMTABLE_NAME]];
-      numberOfError = 0;
-      if (!UnprocessedKeys.RequestItems) break;
-      params = UnprocessedKeys;
-    } catch (error) {
-      numberOfError += 1;
-      if (numberOfError === 3) {
-        params = undefined;
-      }
-      console.log(error);
-      throw error;
+while (params) {
+  try {
+    const { Responses, UnprocessedKeys } = await ddbDocClient.send(
+      new BatchGetCommand(params)
+    );
+    values = [...values, ...Responses[API_DR ConferenceAIGRAPHQL_TEAMTABLE_NAME]];
+    numberOfError = 0;
+    if (!UnprocessedKeys.RequestItems) break;
+    params = UnprocessedKeys;
+  } catch (error) {
+    numberOfError += 1;
+    if (numberOfError === 3) {
+      params = undefined;
     }
+    console.log(error);
+    throw error;
   }
+}
 
-  return values;
+return values;
 }
 
 function confirmPublication(info, time) {
   const { teamId, createdAt, userEmail } = info;
   const params = {
-    TableName: API_LETRAAIGRAPHQL_POSTTABLE_NAME,
+    TableName: API_DR ConferenceAIGRAPHQL_POSTTABLE_NAME,
     Key: { teamId, createdAt },
     UpdateExpression:
       "SET #status = :status, publishedAt = :publishedAt, publishedByField = :publishedByField, updatedAt = :updatedAt, updatedByField = :updatedByField REMOVE scheduleTime",

@@ -16,25 +16,25 @@
         "authcd15df86cd15df86": {}
       },
       "function": {
-        "getusersubLetra": {
+        "getusersubDR Conference": {
           "deploymentBucketName": "amplify-auth-dev-94904-deployment",
-          "s3Key": "amplify-builds/getusersubLetra-4f4c592b64307a614f37-build.zip"
+          "s3Key": "amplify-builds/getusersubDR Conference-4f4c592b64307a614f37-build.zip"
         },
-        "newsapiSearchLetra": {
+        "newsapiSearchDR Conference": {
           "deploymentBucketName": "amplify-auth-dev-94904-deployment",
-          "s3Key": "amplify-builds/newsapiSearchLetra-7a437844667070627633-build.zip"
+          "s3Key": "amplify-builds/newsapiSearchDR Conference-7a437844667070627633-build.zip"
         },
-        "postSchedulerLetra": {
+        "postSchedulerDR Conference": {
           "deploymentBucketName": "amplify-auth-dev-94904-deployment",
-          "s3Key": "amplify-builds/postSchedulerLetra-3847534d706b48322b44-build.zip"
+          "s3Key": "amplify-builds/postSchedulerDR Conference-3847534d706b48322b44-build.zip"
         },
-        "manageInvitationLetra": {
+        "manageInvitationDR Conference": {
           "deploymentBucketName": "amplify-auth-dev-94904-deployment",
-          "s3Key": "amplify-builds/manageInvitationLetra-4b556d2f3950366d6c4e-build.zip"
+          "s3Key": "amplify-builds/manageInvitationDR Conference-4b556d2f3950366d6c4e-build.zip"
         },
-        "getGPT3TextLetra": {
+        "getGPT3TextDR Conference": {
           "deploymentBucketName": "amplify-auth-dev-94904-deployment",
-          "s3Key": "amplify-builds/getGPT3TextLetra-68456f4f756779347259-build.zip"
+          "s3Key": "amplify-builds/getGPT3TextDR Conference-68456f4f756779347259-build.zip"
         }
       }
     }

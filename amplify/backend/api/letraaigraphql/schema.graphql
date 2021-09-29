@@ -117,16 +117,16 @@ type Team
 
 type Query {
   userSubIdentity(email: String!): String
-    @function(name: "getusersubLetra-${env}")
+    @function(name: "getusersubDR Conference-${env}")
   manageInvitation(action: String!, invitationId: String!): String
-    @function(name: "manageInvitationLetra-${env}")
+    @function(name: "manageInvitationDR Conference-${env}")
   newsapiSearch(params: String!): String
-    @function(name: "newsapiSearchLetra-${env}")
-  getGPT3Text(text: String!): String @function(name: "getGPT3TextLetra-${env}")
-  postSchedulerLetra(
+    @function(name: "newsapiSearchDR Conference-${env}")
+  getGPT3Text(text: String!): String @function(name: "getGPT3TextDR Conference-${env}")
+  postSchedulerDR Conference(
     action: String!
     teamId: String!
     createdAt: String!
     userEmail: String!
-  ): String @function(name: "postSchedulerLetra-${env}")
+  ): String @function(name: "postSchedulerDR Conference-${env}")
 }
