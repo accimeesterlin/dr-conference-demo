@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "storage": {
+      "Post:@model(appsync)": [
+        "read",
+        "update"
+      ],
+      "Team:@model(appsync)": [
+        "read"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}

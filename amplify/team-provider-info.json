@@ -1,0 +1,42 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-auth-dev-94904-authRole",
+      "UnauthRoleArn": "arn:aws:iam::832880156651:role/amplify-auth-dev-94904-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::832880156651:role/amplify-auth-dev-94904-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-auth-dev-94904-deployment",
+      "UnauthRoleName": "amplify-auth-dev-94904-unauthRole",
+      "StackName": "amplify-auth-dev-94904",
+      "StackId": "arn:aws:cloudformation:us-east-1:832880156651:stack/amplify-auth-dev-94904/e112c140-03ec-11eb-bdde-122e54527a47",
+      "AmplifyAppId": "dlai6lr3q2yx5"
+    },
+    "categories": {
+      "auth": {
+        "authcd15df86cd15df86": {}
+      },
+      "function": {
+        "getusersubLetra": {
+          "deploymentBucketName": "amplify-auth-dev-94904-deployment",
+          "s3Key": "amplify-builds/getusersubLetra-4f4c592b64307a614f37-build.zip"
+        },
+        "newsapiSearchLetra": {
+          "deploymentBucketName": "amplify-auth-dev-94904-deployment",
+          "s3Key": "amplify-builds/newsapiSearchLetra-7a437844667070627633-build.zip"
+        },
+        "postSchedulerLetra": {
+          "deploymentBucketName": "amplify-auth-dev-94904-deployment",
+          "s3Key": "amplify-builds/postSchedulerLetra-3847534d706b48322b44-build.zip"
+        },
+        "manageInvitationLetra": {
+          "deploymentBucketName": "amplify-auth-dev-94904-deployment",
+          "s3Key": "amplify-builds/manageInvitationLetra-4b556d2f3950366d6c4e-build.zip"
+        },
+        "getGPT3TextLetra": {
+          "deploymentBucketName": "amplify-auth-dev-94904-deployment",
+          "s3Key": "amplify-builds/getGPT3TextLetra-68456f4f756779347259-build.zip"
+        }
+      }
+    }
+  }
+}

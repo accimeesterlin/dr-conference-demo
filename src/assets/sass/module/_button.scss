@@ -1,0 +1,186 @@
+/* Button */
+.btn1 {
+    display: inline-block;
+    padding: 10px 30px;
+    font-family: $heading-font;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    color: $white-color;
+    text-transform: capitalize;
+    transition: $transition;
+    position: relative;
+
+    &::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: $linear-color !important;
+        z-index: -1;
+        opacity: 1;
+        visibility: visible;
+        transition: $transition;
+        border-radius: 5px;
+    }
+
+    @include portrait-phone {
+        padding: 8px 25px;
+        border-radius: 10px;
+    }
+
+    &:hover {
+        &::after {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        border: 1px solid $primary-color;
+        color: $primary-color;
+    }
+}
+
+.btn2 {
+    display: inline-block;
+    padding: 10px 30px;
+    font-family: $heading-font;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid $primary-color;
+    color: $primary-color;
+    text-transform: capitalize;
+    transition: $transition;
+    position: relative;
+
+    &::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: $linear-color;
+        z-index: -1;
+        opacity: 0;
+        visibility: hidden;
+        transition: $transition;
+        border-radius: 5px;
+    }
+
+    @include portrait-phone {
+        padding: 8px 25px;
+        border-radius: 10px;
+    }
+
+    &:hover {
+        &::after {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        border: 1px solid transparent;
+        color: $white-color;
+    }
+}
+
+.btn3 {
+    display: inline-block;
+    padding: 10px 30px;
+    font-family: $heading-font;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    color: $white-color;
+    text-transform: capitalize;
+    transition: $transition;
+    position: relative;
+    z-index: 1;
+
+    &::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: $linear-color3;
+        z-index: -1;
+        opacity: 1;
+        visibility: visible;
+        transition: $transition;
+        border-radius: 5px;
+    }
+
+    @include desktop {
+        padding: 8px 20px;
+    }
+
+    @include portrait-phone {
+        padding: 8px 25px;
+        border-radius: 10px;
+    }
+
+    &:hover {
+        &::after {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        border: 1px solid $home2-primary-color;
+        color: $home2-primary-color;
+    }
+}
+
+.btn4 {
+    display: inline-block;
+    padding: 10px 30px;
+    font-family: $heading-font;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid $home2-primary-color;
+    color: $home2-primary-color;
+    text-transform: capitalize;
+    transition: $transition;
+    position: relative;
+
+    &::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: $linear-color3;
+        z-index: -1;
+        opacity: 0;
+        visibility: hidden;
+        transition: $transition;
+        border-radius: 5px;
+    }
+
+    @include desktop {
+        padding: 8px 20px;
+    }
+
+    @include portrait-phone {
+        padding: 8px 25px;
+        border-radius: 10px;
+    }
+
+    &:hover {
+        &::after {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        border: 1px solid transparent;
+        color: $white-color;
+    }
+}

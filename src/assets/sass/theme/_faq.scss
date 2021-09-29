@@ -1,0 +1,92 @@
+/* Faq Page */
+.faq-area {
+    .faq-left {
+        @include mobile {
+            margin-bottom: 60px;
+        }
+
+        .accordion-wrapper {
+            .card {
+                border: 1px solid transparent;
+                margin-bottom: 30px;
+
+                .card-header {
+                    border: 1px solid $border-color;
+                    padding: 0;
+                    border-radius: 5px;
+                    background: $white-color;
+
+                    h5 {
+                        margin-bottom: 0;
+
+                        a {
+                            padding: 15px 35px 15px 20px;
+                            display: block;
+                            cursor: pointer;
+                            position: relative;
+                            color: $secondary-color;
+
+                            &.collapsed {
+                                &::after {
+                                    content: '\efc2';
+                                }
+                            }
+
+                            &::after {
+                                content: '\ef9a';
+                                font-family: IcoFont;
+                                font-weight: 400;
+                                position: absolute;
+                                right: 15px;
+                                top: 50%;
+                                transform: translateY(-50%);
+                                color: $primary-color;
+                            }
+                        }
+                    }
+                }
+
+                .card-body {
+                    margin-top: 30px;
+                    border-radius: 5px;
+                    background-color: $white-color;
+                    box-shadow: 0px 10px 25px 0px rgba(174, 174, 174, 0.15);
+                }
+            }
+        }
+    }
+
+    .faq-right {
+        .contact-form-area {
+            padding: 30px;
+            background: $bg-color2;
+            border-radius: 5px;
+
+            h4 {
+                font-family: $heading-font;
+                font-weight: 700;
+                margin-bottom: 30px;
+            }
+
+            form {
+                ::placeholder {
+                    color: $heading-color;
+                    opacity: .5;
+                }
+
+                input {
+                    width: 100%;
+                    margin-bottom: 30px;
+                    padding: 20px;
+                    border: none;
+                }
+            }
+
+            .login-btn {
+                button {
+                    z-index: 1;
+                }
+            }
+        }
+    }
+}

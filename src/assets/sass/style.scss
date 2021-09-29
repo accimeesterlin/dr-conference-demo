@@ -1,0 +1,71 @@
+/*-------------------------------------------------------------
+Template Name: Evntox
+Template URL: 
+Author Name: SoftTech IT
+Author URL: https://themeforest.net/user/softtech-it/portfolio
+Version: 1.0
+Description: 
+Tags: Event
+Text Domain:  Evntox
+-------------------------------------------------------------*/
+
+/*------------------------------------------------------------- 
+TABLE OF CONTENTS: 
+---------------------------------------------------------------
+>> Author CSS
+>> Navbar
+>> Header Section
+>> Footer Section
+>> Footer 2
+>> Breadcrumb Section
+>> Preloader
+>> Button 
+>> Form
+>> Theme
+>> Homepage 1
+>> Homepage 2
+>> 404 Page
+>> About Page
+>> About Single
+>> Contact Page
+>> Schedule Page
+>> Event Gallery 
+>> Faq Page 
+>> Schedule Single
+>> Blog Page
+>> Blog Single
+--------------------------------------------------------------*/
+
+// Setting
+@import 'settings/variable';
+@import 'settings/mixin';
+
+// Base
+@import 'base/base';
+
+// Layout
+@import 'layout/navbar';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/footer2';
+@import 'layout/breadcrumb';
+
+// Module
+@import 'module/preloader';
+@import 'module/button';
+@import 'module/form';
+
+// Theme 
+@import 'theme/theme';
+@import 'theme/homepage1';
+@import 'theme/homepage2';
+@import 'theme/404';
+@import 'theme/about';
+@import 'theme/about-single';
+@import 'theme/contact';
+@import 'theme/schedule';
+@import 'theme/event-gallery';
+@import 'theme/faq';
+@import 'theme/schedule-single';
+@import 'theme/blog';
+@import 'theme/blog-single';

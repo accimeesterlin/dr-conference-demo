@@ -1,0 +1,30 @@
+/* About Page*/
+.counterup-area {
+    background-image: url('/assets/images/count.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @include mobile {
+        background-image: initial;
+        background: $linear-color;
+    }
+
+    .single-count {
+        text-align: center;
+        margin-bottom: 30px;
+
+        h2,
+        h4 {
+            color: $white-color;
+            font-family: $heading-font;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+    }
+}

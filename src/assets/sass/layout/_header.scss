@@ -1,0 +1,94 @@
+/* Header Section */
+.header-area {
+
+    // topbar 
+    .header-topbar {
+        background: $bg-color;
+        position: relative;
+
+        .contact-details {
+            display: flex;
+            flex-wrap: wrap;
+
+            @include sm-device {
+                justify-content: center;
+                margin-bottom: 10px;
+            }
+
+            div {
+                color: $white-color;
+                font-weight: 500;
+                font-family: $body-font;
+
+                span {
+                    margin-right: 5px;
+                }
+
+                &:last-child {
+                    &::after {
+                        content: '';
+                    }
+                }
+
+                &::after {
+                    content: '|';
+                    margin-left: 10px;
+                    margin-right: 10px;
+
+                    @include portrait-phone {
+                        content: ' ';
+                    }
+                }
+            }
+        }
+
+        .social-icons {
+            a {
+                span {
+                    color: $white-color;
+                    border: 1px solid $white-color;
+                    width: 32px;
+                    height: 32px;
+                    line-height: 32px;
+                    text-align: center;
+                    display: inline-block;
+                    border-radius: 5px;
+                    transition: $transition;
+
+                    &:hover {
+                        background: $linear-color;
+                        border: 1px solid transparent;
+
+                    }
+                }
+            }
+        }
+    }
+
+    // header-bottom
+    .header-bottom {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 15px 20px;
+        z-index: 22;
+        background: $white-color;
+        box-shadow: 0px 5px 20px 0px rgba(136, 136, 136, 0.05);
+
+        .logo {
+            width: 130px;
+            position: relative;
+            z-index: 999;
+
+            @include portrait-phone {
+                width: 100px;
+            }
+        }
+
+        .header-btn {
+            position: relative;
+            z-index: 999;
+        }
+    }
+}

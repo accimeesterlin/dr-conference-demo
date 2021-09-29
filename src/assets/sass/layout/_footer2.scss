@@ -1,0 +1,38 @@
+/* Footer 2 */
+.footer-area2 {
+    .foo_top {
+        .foo-widget {
+            h4 {
+                color: $home2-secondary-color;
+            }
+
+            .social-links {
+                a {
+                    span {
+                        &.active {
+                            background: $linear-color3;
+                        }
+
+                        background: $home2-secondary-color;
+
+                        &:hover {
+                            background: $linear-color3;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .foo_btm {
+        background: $secondary-color;
+
+        .copyright-text {
+            span {
+                a {
+                    color: $home2-primary-color;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+// Mock Data for now
+export const articles = [
+  { name: "Joe Biden", trending: "1.2k" },
+  { name: "Amy Coney Barett", trending: "1.2k" },
+  { name: "Supreme Court", trending: "1.2k" },
+  { name: "Senate", trending: "1.2k" },
+  { name: "GOP", trending: "1.2k" },
+  { name: "Election Day", trending: "1.2k" },
+  { name: "Congress", trending: "1.2k" },
+  { name: "Google, Inc.", trending: "1.2k" },
+  { name: "Boris Johnson", trending: "1.2k" },
+  { name: "Stonks", trending: "1.2k" },
+  { name: "GameStop", trending: "1.2k" },
+  { name: "Black Berry", trending: "1.2k" },
+  { name: "Reddit", trending: "1.2k" },
+  { name: "Hedge Tears", trending: "1.2k" },
+  { name: "Robinhood Deathly", trending: "1.2k" },
+  { name: "Diamond Handed Chicken Tendies", trending: "1.2k" },
+  { name: "Retail Vengeance", trending: "1.2k" },
+  { name: "COVID", trending: "1.2k" },
+  { name: "Nihilism", trending: "1.2k" },
+];

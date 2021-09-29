@@ -1,0 +1,126 @@
+/* About Single */
+
+.speaker-info {
+    position: relative;
+
+
+    .ss-shapes {
+        img {
+            width: inherit;
+            position: absolute;
+        }
+
+        .vec1 {
+            bottom: 8%;
+            right: 40%;
+
+            @include desktop {
+                bottom: 10%;
+                right: 29%;
+            }
+        }
+
+        .vec2 {
+            bottom: 3%;
+            right: 47%;
+        }
+    }
+
+    .spe_info_left {
+        @include mobile {
+            margin-bottom: 60px;
+        }
+
+        .common-title {
+            h2 {
+                margin-bottom: 20px;
+            }
+
+            h5 {
+                color: $primary-color;
+                margin-bottom: 20px;
+                font-weight: 700;
+            }
+
+
+        }
+
+        .social-links {
+            a {
+                span {
+                    width: 32px;
+                    height: 32px;
+                    line-height: 32px;
+                    text-align: center;
+                    border-radius: 5px;
+                    color: $secondary-color;
+                    background: $border-color;
+                    display: inline-block;
+                    transition: $transition;
+                    margin-right: 10px;
+
+                    &.active {
+                        background: $primary-color;
+                        color: $white-color;
+                    }
+
+                    &:hover {
+                        background: $primary-color;
+                        color: $white-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// session-area
+.session-area {
+    .single-session {
+        padding: 30px;
+        border: 1px solid $border-color;
+        border-radius: 10px;
+        background: $white-color;
+        margin-bottom: 30px;
+        transition: $transition;
+        cursor: pointer;
+
+        @include portrait-phone {
+            text-align: center;
+        }
+
+        @include tablet {
+            text-align: center;
+        }
+
+        &.active {
+            border: 1px solid transparent;
+            box-shadow: 0px 0px 25px 0px rgba(151, 151, 151, 0.15);
+
+            .btn2 {
+                background: $linear-color;
+                color: $white-color;
+            }
+        }
+
+        &:hover {
+            border: 1px solid transparent;
+            box-shadow: 0px 20px 25px 0px rgba(151, 151, 151, 0.15);
+
+            .btn2 {
+                background: $linear-color;
+                color: $white-color;
+            }
+        }
+
+        h4 {
+            font-family: $heading-font;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .btn2 {
+            transition: $transition;
+        }
+    }
+}

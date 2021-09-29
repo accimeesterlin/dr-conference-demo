@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2016",
+    "jsx": "preserve",
+    "checkJs": false,
+    "baseUrl": "./",
+    "paths": {
+      "@Data": ["src/data/index"],
+      "@Data/*": ["src/data/*"],
+      "@Components": ["src/components/index"],
+      "@Components/*": ["src/components/*"],
+      "@Utils": ["src/utils/index"],
+      "@Utils/*": ["src/utils/*"],
+      "@Libs": ["src/libs/index"],
+      "@Libs/*": ["src/libs/*"],
+      "@Graphql": ["src/graphql/index"],
+      "@Graphql/*": ["src/graphql/*"],
+      "@Blocks": ["src/blocks/index"],
+      "@Blocks/*": ["src/blocks/*"],
+      "@Mock": ["src/mock/index"],
+      "@Mock/*": ["src/mock/*"]
+    }
+  },
+  "exclude": ["node_modules", "build", ".next"]
+}

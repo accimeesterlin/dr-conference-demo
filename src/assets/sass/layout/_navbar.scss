@@ -1,0 +1,213 @@
+/* Navbar */
+nav {
+    display: flex !important;
+    justify-content: flex-end;
+
+    // homepage 1 nav 
+    .main-menu {
+        li {
+            display: inline-block;
+            position: relative;
+            margin-right: 35px;
+            line-height: 1.7;
+            z-index: 1;
+
+            @include desktop {
+                margin-right: 25px;
+            }
+
+            &.has-submenu {
+                &::after {
+                    content: '\f107';
+                    font-family: 'Font Awesome 5 Free';
+                    font-weight: 900;
+                    color: $secondary-color;
+                    font-size: 12px;
+                    margin-left: 2px;
+                    transition: $transition;
+
+                    @include mobile {
+                        display: none;
+                    }
+                }
+
+            }
+
+            a {
+                color: $secondary-color;
+                padding: 20px 0;
+                font-weight: 500;
+                display: inline-block;
+                font-size: 14px;
+                text-transform: capitalize;
+
+                &::before {
+                    content: '\f111';
+                    font-family: 'Font Awesome 5 Free';
+                    font-weight: 900;
+                    color: $primary-color;
+                    font-size: 6px;
+                    position: relative;
+                    top: -3px;
+                    left: -3px;
+                    transition: $transition;
+                    opacity: 0;
+                    visibility: hidden;
+
+                    @include mobile {
+                        display: none;
+                    }
+
+                }
+            }
+
+            @include large-device {
+
+                // submenu
+                .submenu {
+                    position: absolute;
+                    border-top: 2px solid $primary-color;
+                    width: 220px;
+                    top: 130%;
+                    left: 0;
+                    background: $white-color;
+                    padding: 10px;
+                    opacity: 0;
+                    visibility: hidden;
+                    transition: $transition;
+
+
+                    li {
+                        display: block;
+                        margin-right: initial;
+
+                        a {
+                            color: $secondary-color;
+                            display: block;
+                            padding: 6px;
+                            width: 100%;
+
+                            &::before {
+                                content: '\f111';
+                                font-family: 'Font Awesome 5 Free';
+                                font-weight: 900;
+                                font-size: 8px;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: $transition;
+                                margin-right: 3px;
+                                position: relative;
+                                top: -1px;
+                            }
+
+                            &:hover {
+                                &::before {
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                            }
+                        }
+
+                    }
+                }
+
+                &:hover {
+                    &.has-submenu {
+                        &::after {
+                            color: $primary-color;
+                        }
+                    }
+
+                    a {
+                        color: $primary-color;
+
+                    }
+
+                    .submenu {
+                        top: 120%;
+                        opacity: 1;
+                        visibility: visible;
+                    }
+                }
+            }
+        }
+    }
+
+    // homepage 2 nav 
+    .main-menu2 {
+        li {
+            a {
+                &::before {
+                    color: $home2-primary-color;
+                }
+            }
+
+            @include large-device {
+
+                // submenu
+                .submenu {
+                    position: absolute;
+                    border-top: 2px solid $home2-primary-color;
+                }
+
+                &:hover {
+                    &.has-submenu {
+                        &::after {
+                            color: $home2-primary-color;
+                        }
+                    }
+
+                    a {
+                        color: $home2-primary-color;
+
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.container-wrapper {
+    position: relative;
+}
+
+// mobile menu
+.mean-container {
+    &.mobile-menu2 {
+        .mean-nav {
+            background: $linear-color3;
+            margin-top: 63px;
+        }
+
+        .mean-bar {
+            a.meanmenu-reveal {
+                background: $linear-color3;
+            }
+        }
+    }
+
+    .mean-nav {
+        background: $linear-color;
+        margin-top: 75px;
+    }
+
+    .mean-bar {
+        z-index: 0;
+
+        a.meanmenu-reveal {
+            background: $linear-color;
+            top: 8px;
+            right: 20px !important;
+
+            @include portrait-phone {
+                width: 20px;
+                height: 20px;
+                border-radius: 5px;
+                top: 6px;
+
+            }
+        }
+    }
+
+}

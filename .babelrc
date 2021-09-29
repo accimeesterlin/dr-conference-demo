@@ -1,0 +1,58 @@
+{
+  "presets": [
+    [
+      "next/babel",
+      {
+        "targets": {
+          "node": "current",
+          "browser": true
+        }
+      }
+    ]
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        [
+          "@babel/plugin-proposal-decorators",
+          {
+            "decoratorsBeforeExport": true
+          }
+        ],
+        [
+          "@babel/plugin-proposal-class-properties",
+          {
+            "loose": true
+          }
+        ],
+        [
+          "@emotion",
+          {
+            "sourceMap": false,
+            "autoLabel": "always"
+          }
+        ],
+        "inline-react-svg"
+      ]
+    },
+    "production": {
+      "plugins": [
+        [
+          "@babel/plugin-proposal-decorators",
+          {
+            "decoratorsBeforeExport": true
+          }
+        ],
+        [
+          "@babel/plugin-proposal-class-properties",
+          {
+            "loose": true
+          }
+        ],
+        "@emotion",
+        "inline-react-svg"
+        // "transform-remove-console" // TODO acctivate when site goes online for goo
+      ]
+    }
+  }
+}

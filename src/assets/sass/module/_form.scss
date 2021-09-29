@@ -1,0 +1,44 @@
+/* Form */
+.contactform-area {
+    .contact-form-wrapper {
+        .form-child {
+            position: relative;
+
+            ::placeholder {
+                color: $secondary-color;
+            }
+
+            .icon {
+                position: absolute;
+                top: 18px;
+                right: 38px;
+                color: $bg-color2;
+            }
+
+            input,
+            textarea,
+            button {
+                width: 100%;
+                padding: 20px;
+            }
+
+            input {
+                background: $border-color;
+                border: none;
+                outline: none;
+                margin-bottom: 30px;
+                border-radius: 10px;
+                padding-right: 40px;
+            }
+
+            textarea {
+                background: $border-color;
+                border: none;
+                outline: none;
+                margin-bottom: 30px;
+                border-radius: 10px;
+            }
+
+        }
+    }
+}

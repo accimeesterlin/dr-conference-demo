@@ -1,0 +1,89 @@
+/* Author CSS */
+body {
+    margin: 0;
+    color: $paragraph-color;
+    font-family: $body-font;
+}
+
+h1 {
+    font-size: 82px;
+
+    @include portrait-phone {
+        font-size: 55px;
+    }
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $heading-color;
+    font-family: $body-font;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.2;
+    transition: $transition;
+}
+
+p {
+    color: $paragraph-color;
+    font-size: 16px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+button:focus,
+.slick-slide {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    transition: $transition;
+}

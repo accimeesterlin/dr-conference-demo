@@ -1,0 +1,51 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Deploying to production. (Need to be triggered manually)
+
+# Controls when the action will run.
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  # We will only deploy manually
+  # push:
+  # branches: [master]
+  # pull_request:
+  # branches: [master]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      - name: Setup Node version as the latest one used by AWS Lambda
+        uses: actions/setup-node@v2
+        with:
+          node-version: "14.17.0"
+
+      # Runs a single command using the runners shell
+      - name: Install global packages
+        run: |
+          npm install -g yarn serverless
+          yarn
+
+      - name: Deploy the application to production
+        env:
+          AWS_ACCESS_KEY_ID:  ${{ secrets.AWS_ACCESS_KEY_ID_LETRA }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY_LETRA }}
+        run: |
+          export AWS_ACCESS_KEY_ID="$AWS_ACCESS_KEY_ID"
+          export AWS_SECRET_ACCESS_KEY="$AWS_SECRET_ACCESS_KEY"
+          export AWS_REGION=us-east-1
+          serverless
+
+      - name: Everything complete
+        run: echo Well done!
