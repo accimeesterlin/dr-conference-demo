@@ -31,6 +31,25 @@
 
         gtag('config', 'G-8HP6R357B4');
     </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '289244902914855');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=289244902914855&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
 
 </head>
 
@@ -64,7 +83,8 @@
                                 <!-- <a href="#"> <span class="si3"><i class="fab fa-pinterest-p"></i> </span></a> -->
                                 <a href="#"> <span class="si3"> <i class="fab fa-linkedin-in"></i></span></a>
                                 <a href="https://facebook.com/pgecom"> <span class="si1"><i
-                                            class="fab fa-facebook-f"></i> </span> </a>
+                                            class="fab fa-facebook-f"></i>
+                                    </span> </a>
                                 <!-- <a href="#"> <span class="si2"> <i class="fab fa-twitter"></i></span> </a> -->
                             </div>
                         </div>
@@ -84,32 +104,38 @@
                             <div class="col-lg-8 d-none d-lg-block">
                                 <nav id="mobile-menu">
                                     <ul class="main-menu">
-                                        <li class="has-submenu"><a href="index.html">home </a>
-                                            <ul class="submenu">
-                                                <li><a href="index.html">home 1</a></li>
-                                                <li><a href="homepage2.html">home 2</a></li>
-                                            </ul>
+                                        <li><a href="index.html">home </a>
+                                            <!-- <ul class="submenu">
+                                                    <li><a href="index.html">home 1</a></li>
+                                                    <li><a href="homepage2.html">home 2</a></li>
+                                                </ul> -->
                                         </li>
-                                        <li><a href="about.html">about</a></li>
-                                        <li><a href="speakers.html">speakers</a></li>
-                                        <li><a href="schedule.html">schedule</a></li>
-                                        <li><a href="ticket.html">ticket</a></li>
-                                        <li class="has-submenu"><a href="#">blog</a>
-                                            <ul class="submenu">
-                                                <li><a href="blog.html">blog</a></li>
-                                                <li><a href="blog-single.html">blog single</a></li>
-                                            </ul>
+                                        <li><a
+                                                href="https://www.eventbrite.com/e/ecommerce-conference-2021-tickets-145967898915">about</a>
                                         </li>
-                                        <li class="has-submenu"><a href="#">pages</a>
-                                            <ul class="submenu">
-                                                <li><a href="about-single.html">about single</a></li>
-                                                <li><a href="contact.html">contact page</a></li>
-                                                <li><a href="event-gallery.html">event gallery</a></li>
-                                                <li><a href="faq.html">faq page</a></li>
-                                                <li><a href="schedule-single.html">schedule single</a></li>
-                                                <li><a href="404.html">error page</a></li>
-                                            </ul>
+                                        <li><a
+                                                href="https://www.eventbrite.com/e/ecommerce-conference-2021-tickets-145967898915">speakers</a>
                                         </li>
+                                        <!-- <li><a href="schedule.html">schedule</a></li> -->
+                                        <li><a
+                                                href="https://www.eventbrite.com/e/ecommerce-conference-2021-tickets-145967898915">ticket</a>
+                                        </li>
+                                        <!-- <li><a href="#">blog</a>
+                                                <ul class="submenu">
+                                                    <li><a href="blog.html">blog</a></li>
+                                                    <li><a href="blog-single.html">blog single</a></li>
+                                                </ul>
+                                            </li> -->
+                                        <!-- <li><a href="#">pages</a>
+                                                <ul class="submenu">
+                                                    <li><a href="about-single.html">about single</a></li>
+                                                    <li><a href="contact.html">contact page</a></li>
+                                                    <li><a href="event-gallery.html">event gallery</a></li>
+                                                    <li><a href="faq.html">faq page</a></li>
+                                                    <li><a href="https://www.eventbrite.com/e/ecommerce-conference-2021-tickets-145967898915">schedule single</a></li>
+                                                    <li><a href="404.html">error page</a></li>
+                                                </ul>
+                                            </li> -->
                                     </ul>
                                 </nav>
                             </div>
@@ -127,7 +153,8 @@
     </header>
 
     <!-- breadcrumb area -->
-    <div class="breadcrumb-area" style="background-image: url('assets/images/breadcrumb.png');">
+    <!-- style="background-image: url('assets/images/breadcrumb.png');" -->
+    <div class="breadcrumb-area">
         <div class="container">
             <div class="row justify-content-center">
                 <nav aria-label="breadcrumb">
@@ -147,9 +174,9 @@
             <div class="row justify-content-center margin-bottom-40 wow fadeInUp">
                 <div class="col-lg-7">
                     <div class="common-tittle text-center">
-                        <h2>the creative speakers</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. </p>
+                        <h2>Get in touch with us</h2>
+                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut -->
+                        <!-- labore et dolore magna aliqua. </p> -->
                     </div>
                 </div>
             </div>
@@ -192,13 +219,13 @@
     </div>
 
     <!-- map area -->
-    <div class="map-area wow fadeInUp">
+    <!-- <div class="map-area wow fadeInUp">
         <div class="container-fluid">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.4148247742232!2d90.39747015024156!3d23.874904684452307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c43bc25ec0ad%3A0x92541def35db7c01!2sPGecom%20Institute!5e0!3m2!1sen!2sbd!4v1611143717399!5m2!1sen!2sbd"
                 height="490" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
-    </div>
+    </div> -->
 
     <!-- subs area -->
     <div class="subs-area padding-top-120 padding-bottom-120">
